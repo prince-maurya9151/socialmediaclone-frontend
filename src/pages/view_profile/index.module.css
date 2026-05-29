@@ -1,0 +1,100 @@
+.container{
+  padding: 1.3rem;
+  background: rgb(230, 230, 230);
+  display: flex;
+  gap: 1.2rem;
+  flex-direction: column;
+
+}
+.backDropContainer{
+  width: 100%;
+  height: 30vh;
+  background: url("data:image/jpeg;base64,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");
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative;
+  border-radius: 20px;
+
+}
+.backDropContainer img{
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -30%;
+  left: 8%;
+  text-align: center;
+}
+
+
+.profileContainer__details{
+  padding: 6.6rem;
+}
+.card{
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+
+}
+.card__profileContainer{
+  display: flex;
+}
+.card__profileContainer>img{
+  width: 3.4rem;
+  height: auto;
+  height: 3.4rem;
+  object-fit: cover;
+
+
+}
+
+.connectBtn{
+  padding-inline: 0.8rem;
+  padding-block: 0.3rem;
+  background: rgba(3, 93, 183,0.905);
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.connectedButton{
+  padding-inline: 0.8rem;
+  padding-block: 0.3rem;
+  border: 1px solid black;
+  outline: none;
+  color: rgba(3, 93, 183, 0.905);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.workHistoryContainer {
+  display: flex;
+  gap: 1.4rem;
+  padding-top: 1.4rem;
+  width: 100%;
+  flex-wrap: wrap;
+  
+}
+
+.workHistoryCard{
+  min-width: fit-content;
+  padding-inline: 2.5rem;
+  padding-block: 1rem;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgb(173, 173, 173);
+}
+
+.profileContainer__flex{
+  display: flex;
+  gap: 0.7rem;
+}
+
+
+@media only screen and (max-width:600px) {
+  .profileContainer__details{
+    flex-direction: column;
+  }
+}
